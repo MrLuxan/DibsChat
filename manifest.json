@@ -1,0 +1,22 @@
+{
+  "name": "DibsChat",
+  "version": "0.1.1",
+  "description": "DibsChat",
+  "permissions": ["storage"],
+  "icons": { "16": "images/Icon16.png",
+             "48": "images/Icon48.png",
+          	 "128":"images/Icon128.png" },
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitch.tv/popout/dskoopa/*"],
+      "css": [ "sidechat.css" ],
+      "js": ["contentscript.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "images/*.png",
+    "options/index.html"
+  ],
+  "options_page": "options/index.html",
+  "manifest_version": 2
+}
