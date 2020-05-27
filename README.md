@@ -6,10 +6,10 @@ When a meesage comes in the conatins dibs, dib, or the ![dskoopaDibs](https://st
 
 ![AppIamge](https://i.imgur.com/v5U6hNu.png)
 
-#To install
+# To install
 
 1. Download https://github.com/MrLuxan/DibsChat/archive/master.zip
 2. Unzip 
 3. Open the chrome extensions page , either by going to chrome://extensions/ or click the settings button > More tools > Extensions/
 4. Check the Developer mode button in the top right, then click load unpacked and select the Unzip extension's folder
-5. Vist twitch.tv/dskoopa , pop out the chat and check it works.
+5. Vist [twitch.tv/dskoopa](https://www.twitch.tv/dskoopa) , pop out the chat and check it works.

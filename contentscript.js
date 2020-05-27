@@ -35,14 +35,14 @@ window.onload = function() {
 	let lastScrollTop = 0; 
 	let autoScroll = true;
 
-	let keys = ["dib","dibs","dskoopaDibs"];
+	let keys = ["dib","dibs","dskoopadibs"];
 
 	chatArea.addEventListener('DOMNodeInserted', function(ev){
 		let newMessage = ev.path[0];
 		if(newMessage.classList.contains("chat-line__message"))
 		{
 			for (var i = 0; i < keys.length; i++) {
-				if(newMessage.innerHTML.indexOf(keys[i]) > -1)
+				if(newMessage.innerHTML.toLocaleLowerCase().indexOf(keys[i]) > -1)
 				{
 					let clone = ev.path[0].cloneNode(true);
 					SideChat.appendChild(clone);
