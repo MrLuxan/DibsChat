@@ -4,7 +4,7 @@ Chrome extension for twitch.tv/dskoopa
 Addes a second panel to the twitch popout chat that is dedicated to showing the dibs messages. 
 When a meesage comes in the conatins dibs, dib, or the ![dskoopaDibs](https://static-cdn.jtvnw.net/emoticons/v1/301044818/1.0) emote it is copied you the dibs chat panel.
 
-![AppIamge](https://i.imgur.com/v5U6hNu.png)
+![AppIamge](https://i.imgur.com/6Li6u6j.jpg)
 
 # To install
 
